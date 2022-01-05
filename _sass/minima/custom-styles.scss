@@ -1,0 +1,76 @@
+.site-title {
+  text-align: center;
+}
+
+hr {
+  margin: 25px 0;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+// Call to Action
+
+.cta-content {
+  position: relative; 
+  color: #555;
+  text-align: center;
+  margin: 0.625rem;
+}
+.cta-title {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.cta-subtitle {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-top: 1rem;
+}
+
+// Cards
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  border: 1px solid;
+  padding: 15px;
+  box-shadow: 5px 10px;
+  margin-bottom: 25px;
+}
+
+// Button
+
+a.button {
+  color: #fff;
+  text-decoration: none;
+}
+.button {
+  color: #ffffff;
+  background-color: #2ecc71;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button i {
+  font-size: 30px;
+  padding-right: 5px;
+}
